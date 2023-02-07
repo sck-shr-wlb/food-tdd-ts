@@ -11,5 +11,16 @@ describe("Roman Numerals", () => {
         // Assert
         expect(output).toBe(expectedValue);
     });
+
+    it("should return II when input 2", () => {
+        // Arrange
+        const expectedValue = "II";
+        
+        // Act
+        const output = convert(2);
+
+        // Assert
+        expect(output).toBe(expectedValue);
+    });
 });
 

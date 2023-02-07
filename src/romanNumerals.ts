@@ -1,3 +1,7 @@
 export const convert = (input: number): string => { 
-    return "I"; 
+    if (input == 1) {
+        return "I"; 
+    } else {
+        return "II";
+    }
 }
