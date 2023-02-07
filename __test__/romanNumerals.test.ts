@@ -22,5 +22,16 @@ describe("Roman Numerals", () => {
         // Assert
         expect(output).toBe(expectedValue);
     });
+
+    it("should return III when input 3", () => {
+        // Arrange
+        const expectedValue = "III";
+        
+        // Act
+        const output = convert(3);
+
+        // Assert
+        expect(output).toBe(expectedValue);
+    });
 });
 
