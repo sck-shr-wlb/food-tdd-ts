@@ -33,5 +33,17 @@ describe("Roman Numerals", () => {
         // Assert
         expect(output).toBe(expectedValue);
     });
+
+    it("should return IV when input 4", () => {
+        // Arrange
+        const expectedValue = "IV";
+        
+        // Act
+        const output = convert(4);
+
+        // Assert
+        expect(output).toBe(expectedValue);
+    });
+
 });
 
