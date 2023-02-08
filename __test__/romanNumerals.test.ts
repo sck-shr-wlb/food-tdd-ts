@@ -45,5 +45,17 @@ describe("Roman Numerals", () => {
         expect(output).toBe(expectedValue);
     });
 
+    it("should return V when input 5", () => {
+        // Arrange
+        const expectedValue = "V";
+        
+        // Act
+        const output = convert(5);
+
+        // Assert
+        expect(output).toBe(expectedValue);
+    });
+
+
 });
 
